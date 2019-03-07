@@ -1,0 +1,80 @@
+
+
+body {
+    background-image: linear-gradient(to bottom, rgb(79, 131, 190),  rgb(79, 131, 190) 50% , white 50%);
+    background-attachment:fixed;
+    background-repeat: no-repeat; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .logo{
+    position: absolute;
+    padding: 12% 50%;
+}
+
+.phones{
+    position: absolute;
+    margin: 10%;
+}
+
+.login{
+    position: absolute;
+    padding: 11% 78%;
+    margin: 20px;
+    font-color: white; 
+}
+
+button{
+    background-color: rgb(79, 131, 190);
+    position: absolute;
+    padding: .5% 1%;
+    margin: 10px;
+    font-size: 15px;
+    color: white;
+}
+ 
+.box{
+    position: relative;;
+    padding: 20% 50%;
+}
+    
+
+.text{
+        position: absolute;
+        top:55%;
+        left: 68%;
+        transform: translate(-50%, -50%);
+        color: rgb(79, 131, 190);
+        font-size: 30px
+      }
+  
+.contain{
+    position: absolute;
+    top: 65%;
+    left: 52%;
+    font-size: 18px
+}
+
+footer{
+    text-align: center;
+    color: gray;   
+}
+
+.box-bottom{
+    position: absolute;
+    top: 100%;
+    left: 52%;
+}
+
+.box-right{
+    position: absolute;
+    top: 100%;
+    left: 70%;
+}
+
+a{
+    text-transform: uppercase;
+    margin: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}   
